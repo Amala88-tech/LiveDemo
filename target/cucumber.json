@@ -1,0 +1,124 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "id": "checking-just-sample.;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1144600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Validating the parallel execution.",
+            "match": {
+              "location": "StepDefinition1.validating_the_parallel_execution()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 102400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Its done.",
+            "match": {
+              "location": "StepDefinition1.its_done()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Checking just Sample.",
+    "description": "",
+    "id": "checking-just-sample.",
+    "keyword": "Feature",
+    "uri": "src\\test\\resources\\Sample.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "id": "checking-the-login-fuctionality-in-lidaveqa-application;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16486622200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Validating the login fuctionality.",
+            "match": {
+              "location": "StepDefinition.validating_the_login_fuctionality()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8036811600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Enters the valid username and valid password.",
+            "match": {
+              "location": "StepDefinition.user_Enters_the_valid_username_and_valid_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "lenproautomation8@lenqat.com",
+                  "Community17"
+                ]
+              },
+              {
+                "cells": [
+                  "Amala",
+                  "Amala@123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1461290800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks the login button.",
+            "match": {
+              "location": "StepDefinition.user_clicks_the_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Checking the login fuctionality in Lidaveqa application",
+    "description": "",
+    "id": "checking-the-login-fuctionality-in-lidaveqa-application",
+    "keyword": "Feature",
+    "uri": "src\\test\\resources\\login.feature",
+    "tags": []
+  }
+]
